@@ -25,6 +25,10 @@ align-items: center;
 background-color: #fff;
 }
 
+ul {
+  padding: 0;
+}
+
 #logo {
 margin-left: 20px;
 }
@@ -77,8 +81,8 @@ transform: translateY(-13px) rotate(-45deg);
 }
 
 #menuContent {
-  color: #fff;
   text-align: center;
+  color: #fff;
 }
 
 .menuContentList:not(:first-child) {
