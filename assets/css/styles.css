@@ -143,8 +143,10 @@ transform: translateY(-13px) rotate(-45deg);
 }
 
 .pricing {
-  background-color: #dbdbbc;
+  /*background-color: #dbdbbc;*/
+  background-color: #454311;
   text-align: center;
+  color: #fff;
 }
 
 article {
