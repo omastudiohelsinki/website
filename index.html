@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fi" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oma Studio Helsinki</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script type="module">
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <!-- Content -->
+  <header id="navbar">
+    <div id="logo">
+        <img alt="Oma Studio Logo" id="logo-svg" src="/assets/images/oma-icon.svg">
+    </div>
+    <div id="menuBtn" onclick="toggleMenu(event)">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </header>
+  <div id="menuView">
+    <div id="menuContent">
+      <ul>
+        <li class="menuContentList"><a class="menuContentListLink" id="#hero" href="#" onclick="toggleMenu(event)">Varaa aika</a></li>
+        <li class="menuContentList"><a class="menuContentListLink" href="#pricing" onclick="toggleMenu(event)">Hinnasto</a></li>
+        <li class="menuContentList"><a class="menuContentListLink" href="#cancellation" onclick="toggleMenu(event)">Peruutuksen ehdot</a></li>
+      </ul>
+    </div>
+  </div>
+  <section id="hero">
+    <div id="hero-content">
+      <img alt="Oma Studio Logo" id="hero-content-image" src="/assets/images/oma-icon.svg">
+      <div>
+        <button id="hero-content-button">
+          <div id="hero-content-button-text"><a id="hero-content-button-text-link" target="_blank" href="https://varaa.timma.fi/omastudio">Varaa aika</a></div>
+        </button>
+      </div>
+      <div id="hero-content-address">
+        <p>Annankatu 29, 00100 Helsinki</p>
+      </div>
+    </div>
+  </section>
+  <section id="pricing" class="pricing">
+    <article>
+      <h2 class="header">Väri & leikkaus</h2>
+      
+      <span>sis. Hiuksen mukaan räätälöity hoito ja viimeistely.</span>
+      <p class="pricing-text">S 155€</p>
+      <p class="pricing-text">M 165€</p>
+      <p class="pricing-text">L 185€</p>
+      <p class="pricing-text">XL 210€</p>
+      <p class="pricing-text">XXL 250€</p>
+    </article>
+    <article>
+      <h2 class="header">Vaalennustyöt/Raidoitukset</h2>
+      
+      <span>sis. Hiuksen mukaan räätälöity hoito, sävytys, leikkaus ja viimeistely.</span>
+      <p class="pricing-text">S 180€</p>
+      <p class="pricing-text">M 190€</p>
+      <p class="pricing-text">L 200€</p>
+      <p class="pricing-text">XL 250€</p>
+      <p class="pricing-text">XXL 300€</p>
+    </article>
+  </section>
+  <section id="cancellation">
+    <h2 class="header">Peruutuksen ehdot</h2>
+
+    <p>Varausten siirrot ja peruutukset tulee tehdä viimeistään 24h ennen varatun ajan alkua. Tämän jälkeen siirretyistä tai peruutetuista ajoista perimme 100% varatun palvelun hinnasta.</p>
+  </section>
+  <script src="/assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
