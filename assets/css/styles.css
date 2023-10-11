@@ -14,6 +14,12 @@ body {
   background-color:darkgray;
 }
 
+section {
+  font-family: roboto-light;
+  padding: 0 2rem 0 2rem;
+}
+
+
 #navbar {
 z-index: 999;
 position: fixed;
@@ -143,6 +149,7 @@ transform: translateY(-13px) rotate(-45deg);
 }
 
 #hero-content-address {
+  font-size: 1rem;
   font-family: roboto-light;
   padding-top: 1rem;
   color: #454311;
@@ -154,19 +161,26 @@ transform: translateY(-13px) rotate(-45deg);
   color: #fff;
 }
 
-article {
-  font-family: roboto-light;
-  padding-bottom: 5rem;
+article:not(:last-child) {
+  padding-bottom: 3rem;
 }
 
-article:not(:last-child) {
-  padding-top: 5rem;
+article:last-child {
+  padding-bottom: 5rem;
 }
 
 .header {
   text-transform: uppercase;
-  font-family: roboto-light;
   font-weight: normal;
+}
+
+h2 {
+  padding-top: 5rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
 }
@@ -179,8 +193,8 @@ article:not(:last-child) {
 #cancellation {
   background-color: #fff;
   text-align: center;
-  padding: 5rem 0;
   font-family: roboto-light;
+  padding-bottom: 5rem;
 }
 
 /* Small devices such as large phones (640px and up) */
