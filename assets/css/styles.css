@@ -19,6 +19,28 @@ section {
   padding: 0 2rem 0 2rem;
 }
 
+#scrollTopButton {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #976F48; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#arrowUpIcon {
+  width: 30px;
+  height: 30px;
+  filter: invert(99%) sepia(0%) saturate(646%) hue-rotate(55deg) brightness(115%) contrast(100%);
+}
+
 
 #navbar {
 z-index: 999;
@@ -37,6 +59,8 @@ ul {
 }
 
 #logo {
+  background-color: transparent;
+  border: none;
 margin-left: 20px;
 }
 
@@ -106,9 +130,10 @@ transform: translateY(-13px) rotate(-45deg);
 }
 
 #hero {
+  position: relative;
   background-color: #F5EAE3;
-  height: 100vh;
   width: 100%;
+  height: calc(100vh + 75px);
 }
 
 #hero-content {
@@ -138,13 +163,13 @@ transform: translateY(-13px) rotate(-45deg);
 
 #hero-content-button-text-link {
   display: block;
-  padding: .7rem 1.5rem;
+  padding: 1em 1rem;
   color: #fff;
   text-decoration: none;
 }
 
 #hero-content-image {
-  height: 40vh;
+  height: 15rem;
   width: auto;
 }
 
@@ -196,6 +221,31 @@ h3 {
   font-family: roboto-light;
   padding-bottom: 5rem;
 }
+
+footer {
+  color: #fff;
+  background-color: hsl(60, 1%, 19%);
+  font-family: roboto-light;
+}
+
+footer > div {
+  padding: 1rem;
+}
+
+footer > div > p {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-height: 28.125em) {
+  #hero {
+   height: 100vh;
+  }
+ 
+  #hero-content-image {
+   height: 40vh;
+   width: auto;
+ }
+ }
 
 /* Small devices such as large phones (640px and up) */
 @media only screen and (min-width: 40em) {
