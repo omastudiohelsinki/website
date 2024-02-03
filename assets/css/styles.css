@@ -222,6 +222,13 @@ h3 {
   padding-bottom: 5rem;
 }
 
+#contact {
+  background-color: #F5EAE3;
+  text-align: center;
+  font-family: roboto-light;
+  padding-bottom: 5rem;
+}
+
 footer {
   color: #fff;
   background-color: hsl(60, 1%, 19%);
@@ -230,6 +237,33 @@ footer {
 
 footer > div {
   padding: 1rem;
+}
+
+.contact-detail {
+  margin-bottom: 10px;
+}
+
+.contact-detail > .telephone-link { color: #454311; }
+
+.contact-detail > p { display: inline; }
+
+.contact-icon {
+  filter: invert(24%) sepia(43%) saturate(636%) hue-rotate(20deg) brightness(91%) contrast(98%);
+  height: 24px;
+  width: 24px;
+}
+
+.contact-detail-button {
+  margin-top: 25px;
+}
+
+.instagram-button {
+  text-decoration: none;
+  color: #454311;
+  background-color: #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px lightgray;
 }
 
 footer > div > p {
@@ -245,7 +279,7 @@ footer > div > p {
    height: 40vh;
    width: auto;
  }
- }
+}
 
 /* Small devices such as large phones (640px and up) */
 @media only screen and (min-width: 40em) {
