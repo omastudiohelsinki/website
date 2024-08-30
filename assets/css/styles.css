@@ -202,12 +202,24 @@ article:last-child {
 h2 {
   padding-top: 5rem;
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 h3 {
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
+}
+
+.sub-text {
+  font-size: .9rem;
+  font-style: italic;
+  font-weight: lighter;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+.sub-text > * {
+  margin: 0;
 }
 
 .pricing-text {
