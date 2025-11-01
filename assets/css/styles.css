@@ -194,6 +194,10 @@ article:last-child {
   padding-bottom: 5rem;
 }
 
+.white-link {
+  color: #fff;
+}
+
 .header {
   text-transform: uppercase;
   font-weight: normal;
@@ -222,9 +226,53 @@ h3 {
   margin: 0;
 }
 
+.pricing-list-box {
+  width: fit-content;
+  gap: 1rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: .5rem auto;
+}
+
+.pricing-hyphen {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
 .pricing-text {
   font-size: 1.2rem;
   margin: 0;
+}
+
+
+.pricing-text-start {
+  text-align: start;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.pricing-text-end {
+  text-align: end;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.pricing-notifification-box {
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  max-width: 37rem;
+  width: fit-content;
+  border: dotted 1px #fff;
+}
+
+#new-pricing {
+  background-color: #976F48;
+  text-align: center;
+  color: #fff;
 }
 
 #cancellation {
