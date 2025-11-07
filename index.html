@@ -1,294 +1,293 @@
 <!DOCTYPE html>
 <html lang="fi" class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kahden hiusalan ammattilaisen parturi-kampaamo Helsingin keskustassa. Palveluitamme ovat parturi- ja kampaamoleikkaukset sekä hiusten värjäys- ja raidoitustyöt." />
+    <title>OMA Studio - Uusi parturi-kampaamo Helsingissä</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg">
+    <script type="module">
+      document.documentElement.classList.remove('no-js');
+      document.documentElement.classList.add('js');
+    </script>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kahden hiusalan ammattilaisen parturi-kampaamo Helsingin keskustassa. Palveluitamme ovat parturi- ja kampaamoleikkaukset sekä hiusten värjäys- ja raidoitustyöt." />
-  <title>OMA Studio - Uusi parturi-kampaamo Helsingissä</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg">
-  <script type="module">
-    document.documentElement.classList.remove('no-js');
-    document.documentElement.classList.add('js');
-  </script>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-</head>
-
-<body>
-  <button onclick="topFunction()" id="scrollTopButton" title="Go to top">
-    <img alt="Takaisin ylös" id="arrowUpIcon" src="/assets/images/arrow-up.svg">
-  </button>
-  <!-- Content -->
-  <header id="navbar">
-    <button id="logo" onclick="topFunction();toggleMenu(event)">
-      <img alt="Oma Studio Logo" id="logo-svg" src="/assets/images/oma-icon.svg">
+  <body>
+    <button onclick="topFunction()" id="scrollTopButton" title="Go to top">
+      <img alt="Takaisin ylös" id="arrowUpIcon" src="/assets/images/arrow-up.svg">
     </button>
-    <div id="menuBtn" onclick="toggleMenu(event)">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
-  </header>
-  <div id="menuView">
-    <div id="menuContent">
-      <ul>
-        <li class="menuContentList"><a class="menuContentListLink" id="#hero" href="https://varaa.timma.fi/omastudio" target="_blank" onclick="toggleMenu(event)">Varaa
-            aika</a></li>
-        <li class="menuContentList"><a class="menuContentListLink" href="#pricing"
-            onclick="toggleMenu(event)">Hinnasto</a></li>
-        <li class="menuContentList"><a class="menuContentListLink" href="#cancellation"
-            onclick="toggleMenu(event)">Peruutuksen ehdot</a></li>
-        <li class="menuContentList"><a class="menuContentListLink" href="#contact"
-            onclick="toggleMenu(event)">Yhteystiedot</a></li>
-      </ul>
-    </div>
-  </div>
-  <section id="hero">
-    <h1>
-      <div id="hero-content">
-        <img alt="Oma Studio" id="hero-content-image" src="/assets/images/oma-icon.svg">
-        <div>
-          <button id="hero-content-button">
-            <div id="hero-content-button-text"><a id="hero-content-button-text-link" target="_blank"
-                href="https://varaa.timma.fi/omastudio">Varaa aika</a></div>
-          </button>
-        </div>
-        <div id="hero-content-address">
-          <p>Annankatu 29, 00100 Helsinki</p>
-        </div>
+    <!-- Content -->
+    <header id="navbar">
+      <button id="logo" onclick="topFunction();toggleMenu(event)">
+        <img alt="Oma Studio Logo" id="logo-svg" src="/assets/images/oma-icon.svg">
+      </button>
+      <div id="menuBtn" onclick="toggleMenu(event)">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
       </div>
-    </h1>
-  </section>
-  <section id="pricing" class="pricing">
-    <h2 class="header">Hinnasto</h2>
-
-    <div class="pricing-notifification-box">
-      <span>Uusi hinnasto astuu voimaan 1.1.2026. Uudet hinnat löytyvät voimassa olevan hinnaston alapuolelta. Voit myös siirtyä <a aria-label="Linkki uuteen hinnastoon" class="white-link" href="#new-pricing">uuteen hinnastoon tästä</a>.</span>
+    </header>
+    <div id="menuView">
+      <div id="menuContent">
+        <ul>
+          <li class="menuContentList"><a class="menuContentListLink" id="#hero" href="https://varaa.timma.fi/omastudio" target="_blank" onclick="toggleMenu(event)">Varaa
+              aika</a></li>
+          <li class="menuContentList"><a class="menuContentListLink" href="#pricing"
+              onclick="toggleMenu(event)">Hinnasto</a></li>
+          <li class="menuContentList"><a class="menuContentListLink" href="#cancellation"
+              onclick="toggleMenu(event)">Peruutuksen ehdot</a></li>
+          <li class="menuContentList"><a class="menuContentListLink" href="#contact"
+              onclick="toggleMenu(event)">Yhteystiedot</a></li>
+        </ul>
+      </div>
     </div>
-
-    <div class="sub-text">
-      <p>Hinnat alkaen.</p>
-        <p>Sis. Alv. 25,5%</p>
-    </div>
-    <article>
-      <h3 class="header">Leikkaus</h2>
-        <span>sis. Pesu, hoito ja viimeistely.</span>
-        <p class="pricing-text">45min 70€</p>
-        <p class="pricing-text">60min 80€</p>
-    </article>
-    <article>
-      <h3 class="header">Väri</h2>
-        <span>sis. Hiuksen mukaan räätälöity hoito ja viimestely.</span>
-        <p class="pricing-text">S 143€</p>
-        <p class="pricing-text">M 160€</p>
-        <p class="pricing-text">L 175€</p>
-        <p class="pricing-text">XL 200€</p>
-    </article>
-    <article>
-      <h3 class="header">Väri & leikkaus</h2>
-        <span>sis. Hiuksen mukaan räätälöity hoito ja viimeistely.</span>
-        <p class="pricing-text">S 165€</p>
-        <p class="pricing-text">M 175€</p>
-        <p class="pricing-text">L 197€</p>
-        <p class="pricing-text">XL 223€</p>
-        <p class="pricing-text">XXL 267€</p>
-    </article>
-    <article>
-      <h3 class="header">Vaalennustyöt/Raidoitukset</h2>
-        <span>sis. Hiuksen mukaan räätälöity hoito, sävytys, leikkaus ja viimeistely.</span>
-        <p class="pricing-text">S 190€</p>
-        <p class="pricing-text">M 202€</p>
-        <p class="pricing-text">L 233€</p>
-        <p class="pricing-text">XL 266€</p>
-        <p class="pricing-text">XXL 320€</p>
-    </article>
-    <article>
-      <h3 class="header">Glossing</h2>
-        <div>
-          <span>Vaaleiden hiusten freesaus käyntien välissä.</span>
-        </div>
-        <div>
-          <span>Sävytys, pesu ja viimeistely.</span>
-        </div>
-        <p class="pricing-text">S 80€</p>
-        <p class="pricing-text">M 100€</p>
-        <p class="pricing-text">L 120€</p>
-        <p class="pricing-text">XL 140€</p>
-    </article>
-  </section>
-    <section id="new-pricing" class="new-pricing">
-    <h2 class="header">Hinnasto 1.1.2026 alkaen</h2>
-        <div class="sub-text">
-      <p>Hinnat alkaen.</p>
-        <p>Sis. Alv. 25,5%</p>
-    </div>
-    <article>
-      <h3 class="header">Leikkaukset</h2>
-        <span>sis. Pesu, hoito ja viimeistely.</span>
-        <div class="pricing-list-box">
+    <section id="hero">
+      <h1>
+        <div id="hero-content">
+          <img alt="Oma Studio" id="hero-content-image" src="/assets/images/oma-icon.svg">
           <div>
-            <p class="pricing-text-end">30min</p>
-            <p class="pricing-text-end">45min</p>
-            <p class="pricing-text-end">60min</p>
+            <button id="hero-content-button">
+              <div id="hero-content-button-text"><a id="hero-content-button-text-link" target="_blank"
+                  href="https://varaa.timma.fi/omastudio">Varaa aika</a></div>
+            </button>
           </div>
-          <div>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-          </div>
-          <div>
-            <p class="pricing-text-start">50€</p>
-            <p class="pricing-text-start">78€</p>
-            <p class="pricing-text-start">95€</p>
+          <div id="hero-content-address">
+            <p>Annankatu 29, 00100 Helsinki</p>
           </div>
         </div>
-    </article>
-    <article>
-      <h3 class="header">Värityöt</h2>
-        <span>sis. Hiuksen mukaan räätälöidyn hoidon ja viimeistelyn.</span>
-        <div class="pricing-list-box">
-          <div>
-            <p class="pricing-text-end">S (lyhyt)</p>
-            <p class="pricing-text-end">M (polkka)</p>
-            <p class="pricing-text-end">L (pitkä)</p>
-            <p class="pricing-text-end">XL (erittäin pitkä)</p>
-          </div>
-          <div>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-          </div>
-          <div>
-            <p class="pricing-text-start">150€</p>
-            <p class="pricing-text-start">170€</p>
-            <p class="pricing-text-start">190€</p>
-            <p class="pricing-text-start">215€</p>
-          </div>
-        </div>
-    </article>
-    <article>
-      <h3 class="header">Väri + leikkaus</h2>
-        <span>sis. Hiuksen mukaan räätälöidyn hoidon ja viimeistelyn.</span>
-          <div class="pricing-list-box">
-          <div>
-            <p class="pricing-text-end">S</p>
-            <p class="pricing-text-end">M</p>
-            <p class="pricing-text-end">L</p>
-            <p class="pricing-text-end">XL</p>
-            <p class="pricing-text-end">XXL</p>
-          </div>
-          <div>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-          </div>
-          <div>
-            <p class="pricing-text-start">175€</p>
-            <p class="pricing-text-start">190€</p>
-            <p class="pricing-text-start">210€</p>
-            <p class="pricing-text-start">235€</p>
-            <p class="pricing-text-start">285€</p>
-          </div>
-        </div>
-    </article>
-    <article>
-      <h3 class="header">Vaalennustyöt / Raidat</h2>
-        <span>sis. Vaalennuksen, sävytyksen, leikkauksen, hoidon ja viimeistelyn.</span>
-        <div class="pricing-list-box">
-          <div>
-            <p class="pricing-text-end">S</p>
-            <p class="pricing-text-end">M</p>
-            <p class="pricing-text-end">L</p>
-            <p class="pricing-text-end">XL</p>
-            <p class="pricing-text-end">XXL</p>
-          </div>
-          <div>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-          </div>
-          <div>
-            <p class="pricing-text-start">200€</p>
-            <p class="pricing-text-start">215€</p>
-            <p class="pricing-text-start">245€</p>
-            <p class="pricing-text-start">280€</p>
-            <p class="pricing-text-start">285€</p>
-          </div>
-        </div>
-        <div class="sub-text">
-          <p>Erityistyölisä (esimerkiksi monivaiheinen vaalennus) +30-60€</p>     
-        </div>
-    </article>
-    <article>
-      <h3 class="header">Glossing</h2>
-        <div>
-          <span>Vaaleiden hiusten sävytys, pesu ja viimeistely – täydellinen käyntien väliin.</span>
-        </div>
-        <div class="pricing-list-box">
-          <div>
-            <p class="pricing-text-end">S</p>
-            <p class="pricing-text-end">M</p>
-            <p class="pricing-text-end">L</p>
-            <p class="pricing-text-end">XL</p>
-          </div>
-          <div>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-            <p class="pricing-hyphen">-</p>
-          </div>
-          <div>
-            <p class="pricing-text-start">90€</p>
-            <p class="pricing-text-start">110€</p>
-            <p class="pricing-text-start">130€</p>
-            <p class="pricing-text-start">150€</p>
-          </div>
-        </div>
-    </article>
+      </h1>
     </section>
-  <section id="cancellation">
-    <h2 class="header">Peruutuksen ehdot</h2>
+    <section id="pricing" class="pricing">
+      <h2 class="header">Hinnasto</h2>
 
-    <p>Varausten siirrot ja peruutukset tulee tehdä viimeistään 24h ennen varatun ajan alkua. Tämän jälkeen siirretyistä
-      tai peruutetuista ajoista perimme 75% varatun palvelun hinnasta.</p>
-  </section>
-  <section id="contact">
-    <h2 class="header">Yhteystiedot</h2>
+      <div class="pricing-notifification-box">
+        <span>Uusi hinnasto astuu voimaan 1.1.2026. Uudet hinnat löytyvät voimassa olevan hinnaston alapuolelta. Voit myös siirtyä <a aria-label="Linkki uuteen hinnastoon" class="white-link" href="#new-pricing">uuteen hinnastoon tästä</a>.</span>
+      </div>
 
-    <div class="contact-detail">
-      <img alt="address-icon" class="contact-icon" src="/assets/images/address-icon.svg">
-      <p>Annankatu 29, 00100 Helsinki</p>
-    </div>
-    <div class="contact-detail">
-      <img alt="telephone-icon" class="contact-icon" src="/assets/images/telephone-icon.svg">
-      <a class="telephone-link" href="tel:+358 40 356 7311">+358 40 356 7311</a>
-    </div>
-    <div class="contact-detail">
-      <img alt="email-icon" class="contact-icon" src="/assets/images/email-icon.svg">
-      <p>omastudiohelsinki@gmail.com</p>
-    </div>
-    <div class="contact-detail-button">
-      <a class="instagram-button" target="_blank" href="https://www.instagram.com/omastudiohelsinki?igsh=ZThtZW84dTBrcDJp">
-        <img alt="instagram-icon" class="contact-icon" src="/assets/images/instagram-icon.svg"> omastudiohelsinki
-      </a>
-    </div>
-  </section>
-  <footer>
-    <div>
-      <p>© 2023 Oma Studio Oy</p>
-      <p>Y-tunnus: 3392969-2</p>
-    </div>
-  </footer>
-  <script src="/assets/js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-</body>
+      <div class="sub-text">
+        <p>Hinnat alkaen.</p>
+          <p>Sis. Alv. 25,5%</p>
+      </div>
+      <article>
+        <h3 class="header">Leikkaus</h2>
+          <span>sis. Pesu, hoito ja viimeistely.</span>
+          <p class="pricing-text">45min 70€</p>
+          <p class="pricing-text">60min 80€</p>
+      </article>
+      <article>
+        <h3 class="header">Väri</h2>
+          <span>sis. Hiuksen mukaan räätälöity hoito ja viimestely.</span>
+          <p class="pricing-text">S 143€</p>
+          <p class="pricing-text">M 160€</p>
+          <p class="pricing-text">L 175€</p>
+          <p class="pricing-text">XL 200€</p>
+      </article>
+      <article>
+        <h3 class="header">Väri & leikkaus</h2>
+          <span>sis. Hiuksen mukaan räätälöity hoito ja viimeistely.</span>
+          <p class="pricing-text">S 165€</p>
+          <p class="pricing-text">M 175€</p>
+          <p class="pricing-text">L 197€</p>
+          <p class="pricing-text">XL 223€</p>
+          <p class="pricing-text">XXL 267€</p>
+      </article>
+      <article>
+        <h3 class="header">Vaalennustyöt/Raidoitukset</h2>
+          <span>sis. Hiuksen mukaan räätälöity hoito, sävytys, leikkaus ja viimeistely.</span>
+          <p class="pricing-text">S 190€</p>
+          <p class="pricing-text">M 202€</p>
+          <p class="pricing-text">L 233€</p>
+          <p class="pricing-text">XL 266€</p>
+          <p class="pricing-text">XXL 320€</p>
+      </article>
+      <article>
+        <h3 class="header">Glossing</h2>
+          <div>
+            <span>Vaaleiden hiusten freesaus käyntien välissä.</span>
+          </div>
+          <div>
+            <span>Sävytys, pesu ja viimeistely.</span>
+          </div>
+          <p class="pricing-text">S 80€</p>
+          <p class="pricing-text">M 100€</p>
+          <p class="pricing-text">L 120€</p>
+          <p class="pricing-text">XL 140€</p>
+      </article>
+    </section>
+      <section id="new-pricing" class="new-pricing">
+      <h2 class="header">Hinnasto 1.1.2026 alkaen</h2>
+          <div class="sub-text">
+        <p>Hinnat alkaen.</p>
+          <p>Sis. Alv. 25,5%</p>
+      </div>
+      <article>
+        <h3 class="header">Leikkaukset</h2>
+          <span>sis. Pesu, hoito ja viimeistely.</span>
+          <div class="pricing-list-box">
+            <div>
+              <p class="pricing-text-end">30min</p>
+              <p class="pricing-text-end">45min</p>
+              <p class="pricing-text-end">60min</p>
+            </div>
+            <div>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+            </div>
+            <div>
+              <p class="pricing-text-start">50€</p>
+              <p class="pricing-text-start">78€</p>
+              <p class="pricing-text-start">95€</p>
+            </div>
+          </div>
+      </article>
+      <article>
+        <h3 class="header">Värityöt</h2>
+          <span>sis. Hiuksen mukaan räätälöidyn hoidon ja viimeistelyn.</span>
+          <div class="pricing-list-box">
+            <div>
+              <p class="pricing-text-end">S (lyhyt)</p>
+              <p class="pricing-text-end">M (polkka)</p>
+              <p class="pricing-text-end">L (pitkä)</p>
+              <p class="pricing-text-end">XL (erittäin pitkä)</p>
+            </div>
+            <div>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+            </div>
+            <div>
+              <p class="pricing-text-start">150€</p>
+              <p class="pricing-text-start">170€</p>
+              <p class="pricing-text-start">190€</p>
+              <p class="pricing-text-start">215€</p>
+            </div>
+          </div>
+      </article>
+      <article>
+        <h3 class="header">Väri + leikkaus</h2>
+          <span>sis. Hiuksen mukaan räätälöidyn hoidon ja viimeistelyn.</span>
+            <div class="pricing-list-box">
+            <div>
+              <p class="pricing-text-end">S</p>
+              <p class="pricing-text-end">M</p>
+              <p class="pricing-text-end">L</p>
+              <p class="pricing-text-end">XL</p>
+              <p class="pricing-text-end">XXL</p>
+            </div>
+            <div>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+            </div>
+            <div>
+              <p class="pricing-text-start">175€</p>
+              <p class="pricing-text-start">190€</p>
+              <p class="pricing-text-start">210€</p>
+              <p class="pricing-text-start">235€</p>
+              <p class="pricing-text-start">285€</p>
+            </div>
+          </div>
+      </article>
+      <article>
+        <h3 class="header">Vaalennustyöt / Raidat</h2>
+          <span>sis. Vaalennuksen, sävytyksen, leikkauksen, hoidon ja viimeistelyn.</span>
+          <div class="pricing-list-box">
+            <div>
+              <p class="pricing-text-end">S</p>
+              <p class="pricing-text-end">M</p>
+              <p class="pricing-text-end">L</p>
+              <p class="pricing-text-end">XL</p>
+              <p class="pricing-text-end">XXL</p>
+            </div>
+            <div>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+            </div>
+            <div>
+              <p class="pricing-text-start">200€</p>
+              <p class="pricing-text-start">215€</p>
+              <p class="pricing-text-start">245€</p>
+              <p class="pricing-text-start">280€</p>
+              <p class="pricing-text-start">285€</p>
+            </div>
+          </div>
+          <div class="sub-text">
+            <p>Erityistyölisä (esimerkiksi monivaiheinen vaalennus) +30-60€</p>     
+          </div>
+      </article>
+      <article>
+        <h3 class="header">Glossing</h2>
+          <div>
+            <span>Vaaleiden hiusten sävytys, pesu ja viimeistely – täydellinen käyntien väliin.</span>
+          </div>
+          <div class="pricing-list-box">
+            <div>
+              <p class="pricing-text-end">S</p>
+              <p class="pricing-text-end">M</p>
+              <p class="pricing-text-end">L</p>
+              <p class="pricing-text-end">XL</p>
+            </div>
+            <div>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+              <p class="pricing-hyphen">-</p>
+            </div>
+            <div>
+              <p class="pricing-text-start">90€</p>
+              <p class="pricing-text-start">110€</p>
+              <p class="pricing-text-start">130€</p>
+              <p class="pricing-text-start">150€</p>
+            </div>
+          </div>
+      </article>
+      </section>
+    <section id="cancellation">
+      <h2 class="header">Peruutuksen ehdot</h2>
+
+      <p>Varausten siirrot ja peruutukset tulee tehdä viimeistään 24h ennen varatun ajan alkua. Tämän jälkeen siirretyistä
+        tai peruutetuista ajoista perimme 75% varatun palvelun hinnasta.</p>
+    </section>
+    <section id="contact">
+      <h2 class="header">Yhteystiedot</h2>
+
+      <div class="contact-detail">
+        <img alt="address-icon" class="contact-icon" src="/assets/images/address-icon.svg">
+        <p>Annankatu 29, 00100 Helsinki</p>
+      </div>
+      <div class="contact-detail">
+        <img alt="telephone-icon" class="contact-icon" src="/assets/images/telephone-icon.svg">
+        <a class="telephone-link" href="tel:+358 40 356 7311">+358 40 356 7311</a>
+      </div>
+      <div class="contact-detail">
+        <img alt="email-icon" class="contact-icon" src="/assets/images/email-icon.svg">
+        <p>omastudiohelsinki@gmail.com</p>
+      </div>
+      <div class="contact-detail-button">
+        <a class="instagram-button" target="_blank" href="https://www.instagram.com/omastudiohelsinki?igsh=ZThtZW84dTBrcDJp">
+          <img alt="instagram-icon" class="contact-icon" src="/assets/images/instagram-icon.svg"> omastudiohelsinki
+        </a>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>© 2023 Oma Studio Oy</p>
+        <p>Y-tunnus: 3392969-2</p>
+      </div>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
