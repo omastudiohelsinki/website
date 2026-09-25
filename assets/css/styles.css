@@ -224,6 +224,43 @@ ul {
   color: #454311;
 }
 
+/* News / Ajankohtaista */
+
+#news {
+  background-color: #976F48;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+.news-entry {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.news-entry:not(:last-child) {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.news-entry time {
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}
+
+.news-entry p {
+  font-size: 1.1rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
 /* Pricing */
 
 .pricing {
