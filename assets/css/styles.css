@@ -259,20 +259,11 @@ h3 {
   margin: 0;
 }
 
-.pricing-notifification-box {
-  padding: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
-  max-width: 37rem;
-  width: fit-content;
-  border: dotted 1px #fff;
-}
-
-#new-pricing {
+#news {
   background-color: #976F48;
   text-align: center;
   color: #fff;
+  padding-bottom: 5rem;
 }
 
 #cancellation {
